@@ -135,6 +135,9 @@ tIme.addTextListener(new text_Action());
 		c1.gridy=1;		
 		pGlaven_panel.add(lPrezime_labela,c1);
 		
+		
+		
+		
 		final TextField tPrezime = new TextField("Презиме",15);
 		c1.gridx=1;
 		c1.gridy=1;	
@@ -145,6 +148,10 @@ tIme.addTextListener(new text_Action());
 		c1.gridy=2;		
 		pGlaven_panel.add(lPol_labela,c1);
 		
+		JLabel lMarjan_labela=new JLabel("Marjan");
+		c1.gridx=0;
+		c1.gridy=3;		
+		pGlaven_panel.add(lMarjan_labela,c1);
 
 final List lPol = new List(2, false);
 
