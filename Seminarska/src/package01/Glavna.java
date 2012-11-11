@@ -152,6 +152,13 @@ tIme.addTextListener(new text_Action());
 		c1.gridx=0;
 		c1.gridy=3;		
 		pGlaven_panel.add(lMarjan_labela,c1);
+		
+		JLabel ltanevski_labela=new JLabel("Tanevski");
+		c1.gridx=0;
+		c1.gridy=4;		
+		pGlaven_panel.add(lTanevski_labela,c1);
+		
+
 
 final List lPol = new List(2, false);
 
