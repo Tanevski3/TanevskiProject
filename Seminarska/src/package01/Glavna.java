@@ -173,6 +173,11 @@ c1.gridx=0;
 c1.gridy=3;		
 pGlaven_panel.add(lGodina_rag_labela,c1);
 
+JLabel lData_dat_labela=new JLabel("Data");
+c1.gridx=2;
+c1.gridy=3;		
+pGlaven_panel.add(lData_dat_labela,c1);
+
 final TextField tData = new TextField("09.29.2009");
 c1.gridx=1;
 c1.gridy=3;	
