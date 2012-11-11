@@ -59,7 +59,7 @@ public class Glavna{
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
-		final JFrame fGlaven_prozorec=new JFrame("Е-мајлер™");//tuka go sozdavame nasiot gl. prozorec
+		final JFrame fGlaven_prozorec=new JFrame("E majler™");//tuka go sozdavame nasiot gl. prozorec
 		fGlaven_prozorec.setVisible(true);//prozorecot da e vidliv
 		fGlaven_prozorec.setSize(600, 700);//sirinata i visinata na gl. prozorec
 
@@ -68,18 +68,18 @@ public class Glavna{
 		JMenuBar mGlavno_meni=new JMenuBar();//gornata lenta potrebna za oddelnite menia
 		fGlaven_prozorec.setJMenuBar(mGlavno_meni);
 /***/
-		JMenu mFile_meni=new JMenu("Е-мајлер"); //meni File
+		JMenu mFile_meni=new JMenu("E majler"); //meni File
 		mGlavno_meni.add(mFile_meni);
-		JMenuItem miReset_podmeni=new JMenuItem("Ресетирај");//podmeni Reset
+		JMenuItem miReset_podmeni=new JMenuItem("Resetiraj");//podmeni Reset
 		mFile_meni.add(miReset_podmeni);
-		JMenuItem miExit_podmeni=new JMenuItem("Излез");//podmeni Exit
+		JMenuItem miExit_podmeni=new JMenuItem("Izlez");//podmeni Exit
 		mFile_meni.add(miExit_podmeni);
 miExit_podmeni.addActionListener(new Exit_Action());
 
 /***/
-		JMenu mHelp_meni=new JMenu("Помош"); //meni File
+		JMenu mHelp_meni=new JMenu("Pomos"); //meni File
 		mGlavno_meni.add(mHelp_meni);
-		JMenuItem miAbout_podmeni=new JMenuItem("За... ");//podmeni Exit
+		JMenuItem miAbout_podmeni=new JMenuItem("Sa...");//podmeni Exit
 		mHelp_meni.add(miAbout_podmeni);
 		
 		class About_Action implements ActionListener {
