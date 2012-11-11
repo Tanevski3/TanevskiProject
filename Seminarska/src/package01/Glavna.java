@@ -152,6 +152,13 @@ tIme.addTextListener(new text_Action());
 		c1.gridx=0;
 		c1.gridy=3;		
 		pGlaven_panel.add(lMarjan_labela,c1);
+		
+		JLabel ltanevski_labela=new JLabel("Tanevski");
+		c1.gridx=0;
+		c1.gridy=4;		
+		pGlaven_panel.add(lTanevski_labela,c1);
+		
+
 
 final List lPol = new List(2, false);
 
@@ -165,6 +172,11 @@ JLabel lGodina_rag_labela=new JLabel("Дата на раѓање:");
 c1.gridx=0;
 c1.gridy=3;		
 pGlaven_panel.add(lGodina_rag_labela,c1);
+
+JLabel lData_dat_labela=new JLabel("Data");
+c1.gridx=2;
+c1.gridy=3;		
+pGlaven_panel.add(lData_dat_labela,c1);
 
 final TextField tData = new TextField("09.29.2009");
 c1.gridx=1;
