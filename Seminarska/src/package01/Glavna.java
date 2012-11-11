@@ -241,6 +241,11 @@ pGlaven_panel.add(lPrazna_labela,c1);
         		c1.gridx=1;
         		c1.gridy=9;	
         		pGlaven_panel.add(bVnesi_button,c1);
+				
+				Button bUnesi_button = new Button("    Unesi   ");
+        		c1.gridx=1;
+        		c1.gridy=10;	
+        		pGlaven_panel.add(bUnesi_button,c1);
 		
 		final JPanel pDol_panel=new JPanel(new GridBagLayout());
 		fGlaven_prozorec.getContentPane().add(pGlaven_panel,BorderLayout.NORTH);
