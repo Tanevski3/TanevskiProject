@@ -239,7 +239,7 @@ pGlaven_panel.add(lpLozinka_labela,c1);
 
 JPasswordField pLozinka = new JPasswordField("", 10);
 c1.gridx=1;
-c1.gridy=7;	
+c1.gridy=7;	//google
 pGlaven_panel.add(pLozinka,c1);
 
 System.out.println("Zdravo jas se vikam Marjan");
