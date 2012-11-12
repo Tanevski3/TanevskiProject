@@ -231,7 +231,7 @@ lMajl.add("@mymail.com");
 c1.gridx=1;
 c1.gridy=6;	
 pGlaven_panel.add(lMajl,c1);
-
+//lozinka
 JLabel lpLozinka_labela=new JLabel("Лозинка:");
 c1.gridx=0;
 c1.gridy=7;		
