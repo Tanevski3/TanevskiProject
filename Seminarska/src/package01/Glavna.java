@@ -242,6 +242,7 @@ c1.gridx=1;
 c1.gridy=7;	
 pGlaven_panel.add(pLozinka,c1);
 
+System.out.println("Zdravo jas se vikam Marjan");
 
 JLabel lPrazna_labela=new JLabel("                 ");
 c1.gridx=0;

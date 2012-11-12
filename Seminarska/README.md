@@ -1,0 +1,1 @@
+Za izrabotka na programata se koristisae Eclipse IDE razvojnata okolina i so pomos na GitHub e razvien repozitor.
