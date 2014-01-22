@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Seminarska/src"/>
+	<classpathentry kind="lib" path="Seminarska/lib/dsn.jar"/>
+	<classpathentry kind="lib" path="Seminarska/lib/imap.jar"/>
+	<classpathentry kind="lib" path="Seminarska/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="Seminarska/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="Seminarska/lib/smtp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Seminarska/bin"/>
+</classpath>

@@ -156,7 +156,7 @@ tIme.addTextListener(new text_Action());
 		JLabel ltanevski_labela=new JLabel("Tanevski");
 		c1.gridx=0;
 		c1.gridy=4;		
-		pGlaven_panel.add(lTanevski_labela,c1);
+		pGlaven_panel.add(ltanevski_labela,c1);
 		
 
 
